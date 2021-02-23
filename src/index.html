@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Sandrine Lê</title>
+		<meta name="description" content="portfolio" />
+		<meta name="keywords" content="web dev, graphic design, web, frontend" />
+		<meta name="author" content="SandrineLe" />
+	
+		<link rel="stylesheet" href="https://use.typekit.net/gdg8keg.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/kursor.css" />	
+		<link rel="stylesheet" href="bulma/css/bulma.css" />
+
+	
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous" />
+	
+		<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this website in a modern browser that supports CSS Variables.");</script>
+	
+
+        <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+        />
+     
+        <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+    </script>
+    </head>
+    <body>
+        <div id="app"></div>
+
+		<script src="app.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+		<script>
+			$("document").ready(function () {
+	
+				$("input[type=radio]").change(function () {
+					$("h1[lang],h2[lang],p[lang],span[lang],div[lang]").languageSwitcher($(this).attr("id"));
+				});
+	
+			});
+		</script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	
+		<script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+		<script>
+			new kursor({
+				type: 4
+			})
+		</script>
+    </body>
+</html>
