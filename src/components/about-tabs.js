@@ -18,7 +18,7 @@ import illustrator from ".././img/illustrator.png"
 import indesign from ".././img/indesign.png"
 import xd from ".././img/xd.png"
 import MySQL from ".././img/MySQL.png"
-import bulma from ".././img/bulma.png"
+import bulma from ".././img/Bulma.png"
 import cat from ".././img/cat.gif"
 
 function TabPanel(props) {
