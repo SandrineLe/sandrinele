@@ -1,0 +1,13 @@
+				<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 1807.17 1174.16">
+					<path id="motionPath" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="3"
+						d="M448.64,773.44a314.38,314.38,0,0,1,30.91,87.3c18.49,94.41,104.62,314.12,506,311.76,511-3,963,278,1033,51s249-267,46-494-98-427-544-435-1104-149-1156,62C325.9,513.11,405.2,691.75,448.64,773.44Z"
+						transform="translate(-352.71 -239.48)" />
+
+					<circle id="circle" r="17" cx="0" cy="0" fill="white" transform="translate(-352.71 -239.48)" />
+
+					<animateMotion xlink:href="#circle" dur="6s" begin="0s" fill="freeze" repeatCount="indefinite">
+						<mpath xlink:href="#motionPath" />
+					</animateMotion>
+
+					<circle id="circle2" r="17" cx="0" cy="0" fill="#3D405B" transform="translate(-352.71 -239.48)" />
+				</svg>
