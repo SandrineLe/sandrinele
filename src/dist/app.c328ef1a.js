@@ -29844,7 +29844,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/herobg.png":[["herobg.9ee134a4.png","img/herobg.png"],"img/herobg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/aboutbg.png":[["aboutbg.4aaa4f4f.png","img/aboutbg.png"],"img/aboutbg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/projectsbg.png":[["projectsbg.489a9ade.png","img/projectsbg.png"],"img/projectsbg.png"],"_css_loader":"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navbar.js":[function(require,module,exports) {
+},{"/Applications/XAMPP/xamppfiles/htdocs/sandrine-le/src/img/herobg.png":[["herobg.9ee134a4.png","img/herobg.png"],"img/herobg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrine-le/src/img/aboutbg.png":[["aboutbg.4aaa4f4f.png","img/aboutbg.png"],"img/aboutbg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrine-le/src/img/projectsbg.png":[["projectsbg.489a9ade.png","img/projectsbg.png"],"img/projectsbg.png"],"_css_loader":"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navbar.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -47190,8 +47190,8 @@ module.exports = "/indesign.b3738017.png";
 module.exports = "/xd.2ad02056.png";
 },{}],"img/MySQL.png":[function(require,module,exports) {
 module.exports = "/MySQL.eb40ba9a.png";
-},{}],"img/bulma.png":[function(require,module,exports) {
-module.exports = "/bulma.051200bb.png";
+},{}],"img/Bulma.png":[function(require,module,exports) {
+module.exports = "/Bulma.fa5f413a.png";
 },{}],"img/cat.gif":[function(require,module,exports) {
 module.exports = "/cat.37b81cfe.gif";
 },{}],"components/about-tabs.js":[function(require,module,exports) {
@@ -47236,7 +47236,7 @@ var _xd = _interopRequireDefault(require(".././img/xd.png"));
 
 var _MySQL = _interopRequireDefault(require(".././img/MySQL.png"));
 
-var _bulma = _interopRequireDefault(require(".././img/bulma.png"));
+var _Bulma = _interopRequireDefault(require(".././img/Bulma.png"));
 
 var _cat = _interopRequireDefault(require(".././img/cat.gif"));
 
@@ -47396,7 +47396,7 @@ function MyTabs() {
   }), " ", /*#__PURE__*/_react.default.createElement("i", {
     className: "fab fa-bootstrap"
   }), " ", /*#__PURE__*/_react.default.createElement("img", {
-    src: _bulma.default,
+    src: _Bulma.default,
     alt: ""
   }))))), /*#__PURE__*/_react.default.createElement("div", {
     className: "column"
@@ -47418,7 +47418,7 @@ function MyTabs() {
 
 var _default = MyTabs;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core/styles":"../node_modules/@material-ui/core/esm/styles/index.js","@material-ui/core/AppBar":"../node_modules/@material-ui/core/esm/AppBar/index.js","@material-ui/core/Tabs":"../node_modules/@material-ui/core/esm/Tabs/index.js","@material-ui/core/Tab":"../node_modules/@material-ui/core/esm/Tab/index.js","@material-ui/icons/Face":"../node_modules/@material-ui/icons/Face.js","@material-ui/icons/Code":"../node_modules/@material-ui/icons/Code.js","@material-ui/icons/Favorite":"../node_modules/@material-ui/icons/Favorite.js","@material-ui/icons/Help":"../node_modules/@material-ui/icons/Help.js","@material-ui/core/Typography":"../node_modules/@material-ui/core/esm/Typography/index.js","@material-ui/core/Box":"../node_modules/@material-ui/core/esm/Box/index.js",".././img/photoshop.png":"img/photoshop.png",".././img/illustrator.png":"img/illustrator.png",".././img/indesign.png":"img/indesign.png",".././img/xd.png":"img/xd.png",".././img/MySQL.png":"img/MySQL.png",".././img/bulma.png":"img/bulma.png",".././img/cat.gif":"img/cat.gif"}],"components/about.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core/styles":"../node_modules/@material-ui/core/esm/styles/index.js","@material-ui/core/AppBar":"../node_modules/@material-ui/core/esm/AppBar/index.js","@material-ui/core/Tabs":"../node_modules/@material-ui/core/esm/Tabs/index.js","@material-ui/core/Tab":"../node_modules/@material-ui/core/esm/Tab/index.js","@material-ui/icons/Face":"../node_modules/@material-ui/icons/Face.js","@material-ui/icons/Code":"../node_modules/@material-ui/icons/Code.js","@material-ui/icons/Favorite":"../node_modules/@material-ui/icons/Favorite.js","@material-ui/icons/Help":"../node_modules/@material-ui/icons/Help.js","@material-ui/core/Typography":"../node_modules/@material-ui/core/esm/Typography/index.js","@material-ui/core/Box":"../node_modules/@material-ui/core/esm/Box/index.js",".././img/photoshop.png":"img/photoshop.png",".././img/illustrator.png":"img/illustrator.png",".././img/indesign.png":"img/indesign.png",".././img/xd.png":"img/xd.png",".././img/MySQL.png":"img/MySQL.png",".././img/Bulma.png":"img/Bulma.png",".././img/cat.gif":"img/cat.gif"}],"components/about.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48973,7 +48973,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63262" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65391" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
