@@ -494,7 +494,7 @@ h2.yellow::selection {
 }
 
 .portfolio__container {
-  height: 210vh;
+  height: 240vh;
   overflow: auto;
   max-width: 100%;
   display: flex;
