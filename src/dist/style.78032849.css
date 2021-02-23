@@ -459,7 +459,7 @@ h2.yellow::selection {
 #projects {
   background-color: #f3f3f3;
   width: 100%;
-  height: 230vh;
+  height: 240vh;
   display: grid;
   grid-template-columns: 0.3fr 2.4fr 0.3fr;
   grid-template-rows: 0.2fr 2.5fr 0.3fr;

@@ -207,6 +207,7 @@ function Projects() {
                                         style={{height: 180}}
                                         image={item.photo}
                                         key={item.photo}
+                                        loading={"lazy"}
                                     />
                                     <CardContent>
 

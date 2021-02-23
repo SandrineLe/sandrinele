@@ -42,13 +42,7 @@ function MyNavbar() {
 					<a href={"#contact"} className={"navbar-item"}>
 						{"Contact"}
 					</a>
-					<div className={"navbar-item has-dropdown is-hoverable"}>
-						<a className={"navbar-link"}>
-							<i className={"fas fa-globe-europe"}></i>
-						</a>
-
-
-					</div>
+				
 				</div>
 
 
