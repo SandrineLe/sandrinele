@@ -48793,7 +48793,7 @@ function Projects() {
       component: "p"
     }, /*#__PURE__*/_react.default.createElement("span", {
       key: item.desc
-    }, item.desc), /*#__PURE__*/_react.default.createElement("strong", null, "Tools :", " "), /*#__PURE__*/_react.default.createElement("span", {
+    }, item.desc), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("strong", null, "Tools :", " "), /*#__PURE__*/_react.default.createElement("span", {
       key: item.tools
     }, item.tools)))), /*#__PURE__*/_react.default.createElement(_CardActions.default, null, /*#__PURE__*/_react.default.createElement("a", {
       key: item.website,
@@ -48968,7 +48968,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50994" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56549" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

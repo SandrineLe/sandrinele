@@ -37,7 +37,7 @@ $font-text: bilo, sans-serif;
 *::after,
 *::before {
 	box-sizing: border-box;
-	scrollbar-color: #ccc white;
+	scrollbar-color: $text-color white;
 }
 
 
@@ -52,7 +52,7 @@ $font-text: bilo, sans-serif;
   }
   
   *::-webkit-scrollbar-thumb {
-	background-color: $neutral;
+	background-color: $text-color;
   }
 
 :root {
@@ -458,7 +458,7 @@ body section {    scroll-snap-align: start; }
 #projects {
 	background-color: $neutral;
     width: 100%;
-	height: 260vh;
+	height: 233vh;
 
 
 	display: grid;
@@ -498,11 +498,10 @@ body section {    scroll-snap-align: start; }
 
 	  
 	  .portfolio__container {
-        height:200vh;
 		overflow: auto;
+		justify-content: center;
 		max-width: 100%;
 		display: flex;
-		align-items: center;
 		flex-wrap: wrap;
 
 	  }
