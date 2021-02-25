@@ -66,7 +66,7 @@ const portfolio = [
     {
         name: "Les Fourmis, le collectif",
         photo: fourmis,
-        desc: "Personal project, creation of a website (design and coding) for a fictional collective : Les Fourmis. ",
+        desc: "(In progress) Personal project, creation of a website (design and coding) for a fictional collective : Les Fourmis. ",
         tools: "HTML - CSS - BOOTSTRAP",
         website: "https://sandrinele.github.io/lesfourmis/",
         github: "https://github.com/SandrineLe/lesfourmis",
