@@ -47473,6 +47473,8 @@ module.exports = "/project-pomodoro.705737c5.png";
 module.exports = "/project-goutte.dc9a75d9.png";
 },{}],"img/project-breeze.png":[function(require,module,exports) {
 module.exports = "/project-breeze.f1e96a2c.png";
+},{}],"img/project-fourmis.png":[function(require,module,exports) {
+module.exports = "/project-fourmis.e36630a1.png";
 },{}],"img/project-dissidentes.png":[function(require,module,exports) {
 module.exports = "/project-dissidentes.0df7fe6b.png";
 },{}],"../node_modules/@material-ui/core/esm/Card/Card.js":[function(require,module,exports) {
@@ -48563,6 +48565,8 @@ var _projectGoutte = _interopRequireDefault(require(".././img/project-goutte.png
 
 var _projectBreeze = _interopRequireDefault(require(".././img/project-breeze.png"));
 
+var _projectFourmis = _interopRequireDefault(require(".././img/project-fourmis.png"));
+
 var _projectDissidentes = _interopRequireDefault(require(".././img/project-dissidentes.png"));
 
 var _styles = require("@material-ui/core/styles");
@@ -48637,6 +48641,14 @@ var portfolio = [{
   website: "#",
   github: "https://github.com/macmowl/mwenbwa",
   category: ["all", "website", "others"]
+}, {
+  name: "Les Fourmis, le collectif",
+  photo: _projectFourmis.default,
+  desc: "Personal project, creation of a website (design and coding) for a fictional collective : Les Fourmis. ",
+  tools: "HTML - CSS - BOOTSTRAP",
+  website: "https://sandrinele.github.io/lesfourmis/",
+  github: "https://github.com/SandrineLe/lesfourmis",
+  category: ["all", "website"]
 }, {
   name: "Interior design agency",
   photo: _projectAgency.default,
@@ -48813,7 +48825,7 @@ function Projects() {
 
 var _default = Projects;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js",".././css/style.css":"css/style.css",".././img/project-coffee.png":"img/project-coffee.png",".././img/project-cms.png":"img/project-cms.png",".././img/project-leaf.png":"img/project-leaf.png",".././img/project-kokombe.png":"img/project-kokombe.png",".././img/project-starwars.png":"img/project-starwars.png",".././img/project-tisjart.png":"img/project-tisjart.png",".././img/project-agency.png":"img/project-agency.png",".././img/project-risingsun.png":"img/project-risingsun.png",".././img/project-pomodoro.png":"img/project-pomodoro.png",".././img/project-goutte.png":"img/project-goutte.png",".././img/project-breeze.png":"img/project-breeze.png",".././img/project-dissidentes.png":"img/project-dissidentes.png","@material-ui/core/styles":"../node_modules/@material-ui/core/esm/styles/index.js","@material-ui/core/Card":"../node_modules/@material-ui/core/esm/Card/index.js","@material-ui/core/CardActionArea":"../node_modules/@material-ui/core/esm/CardActionArea/index.js","@material-ui/core/CardActions":"../node_modules/@material-ui/core/esm/CardActions/index.js","@material-ui/core/CardContent":"../node_modules/@material-ui/core/esm/CardContent/index.js","@material-ui/core/CardMedia":"../node_modules/@material-ui/core/esm/CardMedia/index.js","@material-ui/core/Button":"../node_modules/@material-ui/core/esm/Button/index.js","@material-ui/core/Typography":"../node_modules/@material-ui/core/esm/Typography/index.js"}],"components/contact.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js",".././css/style.css":"css/style.css",".././img/project-coffee.png":"img/project-coffee.png",".././img/project-cms.png":"img/project-cms.png",".././img/project-leaf.png":"img/project-leaf.png",".././img/project-kokombe.png":"img/project-kokombe.png",".././img/project-starwars.png":"img/project-starwars.png",".././img/project-tisjart.png":"img/project-tisjart.png",".././img/project-agency.png":"img/project-agency.png",".././img/project-risingsun.png":"img/project-risingsun.png",".././img/project-pomodoro.png":"img/project-pomodoro.png",".././img/project-goutte.png":"img/project-goutte.png",".././img/project-breeze.png":"img/project-breeze.png",".././img/project-fourmis.png":"img/project-fourmis.png",".././img/project-dissidentes.png":"img/project-dissidentes.png","@material-ui/core/styles":"../node_modules/@material-ui/core/esm/styles/index.js","@material-ui/core/Card":"../node_modules/@material-ui/core/esm/Card/index.js","@material-ui/core/CardActionArea":"../node_modules/@material-ui/core/esm/CardActionArea/index.js","@material-ui/core/CardActions":"../node_modules/@material-ui/core/esm/CardActions/index.js","@material-ui/core/CardContent":"../node_modules/@material-ui/core/esm/CardContent/index.js","@material-ui/core/CardMedia":"../node_modules/@material-ui/core/esm/CardMedia/index.js","@material-ui/core/Button":"../node_modules/@material-ui/core/esm/Button/index.js","@material-ui/core/Typography":"../node_modules/@material-ui/core/esm/Typography/index.js"}],"components/contact.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48968,7 +48980,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56549" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54680" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

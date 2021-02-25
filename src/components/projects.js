@@ -13,6 +13,7 @@ import risingsun from ".././img/project-risingsun.png"
 import pomodoro from ".././img/project-pomodoro.png"
 import goutte from ".././img/project-goutte.png"
 import breeze from ".././img/project-breeze.png"
+import fourmis from ".././img/project-fourmis.png"
 import dissidentes from ".././img/project-dissidentes.png"
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -61,6 +62,15 @@ const portfolio = [
         website: "#",
         github: "https://github.com/macmowl/mwenbwa",
         category: ["all", "website", "others"]
+    },
+    {
+        name: "Les Fourmis, le collectif",
+        photo: fourmis,
+        desc: "Personal project, creation of a website (design and coding) for a fictional collective : Les Fourmis. ",
+        tools: "HTML - CSS - BOOTSTRAP",
+        website: "https://sandrinele.github.io/lesfourmis/",
+        github: "https://github.com/SandrineLe/lesfourmis",
+        category: ["all", "website"]
     },
     {
         name: "Interior design agency",

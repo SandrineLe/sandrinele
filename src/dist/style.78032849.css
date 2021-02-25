@@ -156,30 +156,6 @@ h2.yellow::selection {
   width: 2.4rem;
 }
 
-.lineSVG {
-  transform: rotate(45deg);
-  top: 60%;
-  left: 70%;
-  position: absolute;
-  z-index: 0;
-}
-.lineSVG svg {
-  display: block;
-  margin: 1em auto;
-}
-
-.heroSVG {
-  transform: rotate(45deg);
-  top: -20%;
-  left: -20%;
-  position: absolute;
-  z-index: 0;
-}
-.heroSVG svg {
-  display: block;
-  margin: 1em auto;
-}
-
 @media (max-width: 736px) {
   #hero {
     height: 100vh;
