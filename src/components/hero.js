@@ -17,11 +17,7 @@ function Hero() {
         <div className={"scrolldown"}>
             <a href={"#about"}><img src={scroll} alt="Logo" /></a>
         </div>
-        <div lang={"fr"} className={"content"}>
-            <h2>{"Hello! Je m'appelle"} <span>{"Sandrine"}</span>{", je suis une"} <a className={"fancylink"}>{"developpeuse front-end"}</a> {"et infographiste sur"} <strong>{"Liège"}</strong>{"."}</h2>
-            <p className={"yellow"}> {"Intéressée par l'art, dépendante du café et fan des capybaras."}</p>
 
-        </div>
 
 
     </section>

@@ -29844,7 +29844,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/herobg.png":[["herobg.9ee134a4.png","img/herobg.png"],"img/herobg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/aboutbg.png":[["aboutbg.4aaa4f4f.png","img/aboutbg.png"],"img/aboutbg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/projectsbg.png":[["projectsbg.489a9ade.png","img/projectsbg.png"],"img/projectsbg.png"],"_css_loader":"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navbar.js":[function(require,module,exports) {
+},{"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/herobg.png":[["herobg.9ee134a4.png","img/herobg.png"],"img/herobg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/aboutbg.png":[["aboutbg.4aaa4f4f.png","img/aboutbg.png"],"img/aboutbg.png"],"_css_loader":"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navbar.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29911,10 +29911,7 @@ function MyNavbar() {
   }, "About"), /*#__PURE__*/_react.default.createElement("a", {
     href: "#projects",
     className: "navbar-item"
-  }, "Projects"), /*#__PURE__*/_react.default.createElement("a", {
-    href: "#contact",
-    className: "navbar-item"
-  }, "Contact"))));
+  }, "Projects"))));
 }
 
 var _default = MyNavbar;
@@ -29957,14 +29954,7 @@ function Hero() {
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _scroll.default,
     alt: "Logo"
-  }))), /*#__PURE__*/_react.default.createElement("div", {
-    lang: "fr",
-    className: "content"
-  }, /*#__PURE__*/_react.default.createElement("h2", null, "Hello! Je m'appelle", " ", /*#__PURE__*/_react.default.createElement("span", null, "Sandrine"), ", je suis une", " ", /*#__PURE__*/_react.default.createElement("a", {
-    className: "fancylink"
-  }, "developpeuse front-end"), " ", "et infographiste sur", " ", /*#__PURE__*/_react.default.createElement("strong", null, "Liège"), "."), /*#__PURE__*/_react.default.createElement("p", {
-    className: "yellow"
-  }, " ", "Intéressée par l'art, dépendante du café et fan des capybaras.")));
+  }))));
 }
 
 var _default = Hero;
@@ -48644,7 +48634,7 @@ var portfolio = [{
 }, {
   name: "Les Fourmis, le collectif",
   photo: _projectFourmis.default,
-  desc: "Personal project, creation of a website (design and coding) for a fictional collective : Les Fourmis. ",
+  desc: "(In progress) Personal project, creation of a website (design and coding) for a fictional collective : Les Fourmis. ",
   tools: "HTML - CSS - BOOTSTRAP",
   website: "https://sandrinele.github.io/lesfourmis/",
   github: "https://github.com/SandrineLe/lesfourmis",
@@ -48887,7 +48877,9 @@ function Contact() {
 
 var _default = Contact;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"components/footer.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js"}],"img/logo.svg":[function(require,module,exports) {
+module.exports = "/logo.f1d8a4c6.svg";
+},{}],"components/footer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48897,34 +48889,50 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _logo = _interopRequireDefault(require(".././img/logo.svg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Footer() {
   return /*#__PURE__*/_react.default.createElement("section", null, /*#__PURE__*/_react.default.createElement("div", {
-    className: "has-text-centered"
-  }, /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("a", {
-    className: "is-size-3",
+    className: "columns is-mobile"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "column has-text-centered"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Sandrine Lê"), /*#__PURE__*/_react.default.createElement("span", {
+    className: "has-text-white"
+  }, "portfolio © 2021"), /*#__PURE__*/_react.default.createElement("img", {
+    className: "is-block",
+    src: _logo.default,
+    alt: "Logo"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "column footerSocial has-text-centered"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Social Network"), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("a", {
+    className: "is-size-5 has-text-white is-block",
     href: "https://github.com/SandrineLe/"
   }, /*#__PURE__*/_react.default.createElement("i", {
     className: "fab fa-github m-2 has-text-white"
-  })), "  ", /*#__PURE__*/_react.default.createElement("a", {
-    className: "is-size-3",
+  }), " ", "Github"), /*#__PURE__*/_react.default.createElement("a", {
+    className: "is-size-5 has-text-white is-block",
     href: "https://www.behance.net/sandrinee"
   }, /*#__PURE__*/_react.default.createElement("i", {
     className: "fab fa-behance m-2 has-text-white"
-  })), "  ", /*#__PURE__*/_react.default.createElement("a", {
-    className: "is-size-3",
+  }), " ", "Behance"), /*#__PURE__*/_react.default.createElement("a", {
+    className: "is-size-5 has-text-white is-block",
     href: "#"
   }, /*#__PURE__*/_react.default.createElement("i", {
     className: "fab fa-linkedin-in m-2 has-text-white"
-  }))), /*#__PURE__*/_react.default.createElement("p", {
-    className: "has-text-white"
-  }, "PERSONAL PORTFOLIO BY SANDRINE LE (2021)")));
+  }), " ", "Linkedin"))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "column"
+  }, " ", /*#__PURE__*/_react.default.createElement("p", null, "Contact me"), /*#__PURE__*/_react.default.createElement("span", {
+    className: "is-size-5 has-text-white is-block"
+  }, "le.sandrinemt@gmail.com"), /*#__PURE__*/_react.default.createElement("span", {
+    className: "is-size-5 has-text-white is-block"
+  }, "0498 11 29 27"))));
 }
 
 var _default = Footer;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"app.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js",".././img/logo.svg":"img/logo.svg"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
@@ -48948,7 +48956,7 @@ var _footer = _interopRequireDefault(require("./components/footer"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement(_navbar.default, null)), /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement(_hero.default, null), /*#__PURE__*/_react.default.createElement(_about.default, null), /*#__PURE__*/_react.default.createElement(_projects.default, null), /*#__PURE__*/_react.default.createElement(_contact.default, null)), /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement(_footer.default, null)));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement(_navbar.default, null)), /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement(_hero.default, null), /*#__PURE__*/_react.default.createElement(_about.default, null), /*#__PURE__*/_react.default.createElement(_projects.default, null)), /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement(_footer.default, null)));
 }
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), document.querySelector("#app"));
@@ -48980,7 +48988,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54680" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59212" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -22,7 +22,6 @@ function App() {
              <Hero />
              <About />
              <Projects />          
-             <Contact /> 
         </main>
       <footer>
             <Footer />

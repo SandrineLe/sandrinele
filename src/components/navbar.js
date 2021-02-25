@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 function MyNavbar() {
 	const [isActive, setisActive] = React.useState(false);
 
@@ -39,9 +40,7 @@ function MyNavbar() {
 					<a href={"#projects"} className={"navbar-item"}>
 						{"Projects"}
 					</a>
-					<a href={"#contact"} className={"navbar-item"}>
-						{"Contact"}
-					</a>
+
 				
 				</div>
 
