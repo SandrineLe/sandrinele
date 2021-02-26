@@ -29946,6 +29946,8 @@ function Hero() {
   }, "Hi! I'm", " ", /*#__PURE__*/_react.default.createElement("span", null, "Sandrine"), ", a", " ", /*#__PURE__*/_react.default.createElement("a", {
     className: "fancylink"
   }, "frontend developer"), " ", "and graphic designer based out of", " ", /*#__PURE__*/_react.default.createElement("strong", null, "Liège.")), /*#__PURE__*/_react.default.createElement("p", {
+    "data-aos": "zoom-in",
+    "data-aos-delay": "400",
     className: "yellow"
   }, "Art lover, coffee enthusiast, capybara connoisseur.")), /*#__PURE__*/_react.default.createElement("div", {
     className: "scrolldown"
@@ -47393,8 +47395,8 @@ function MyTabs() {
     value: value,
     index: 3
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "tab-content has-text-centered"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "What I look like when I code :"), /*#__PURE__*/_react.default.createElement("img", {
+    className: "tab-content trivia has-text-centered"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "What I look like when I code", /*#__PURE__*/_react.default.createElement("span", null, "( A true and accurate representation )", " ")), /*#__PURE__*/_react.default.createElement("img", {
     src: _cat.default,
     alt: "/"
   }))));
@@ -48769,6 +48771,8 @@ function Projects() {
       return setFilter("others");
     }
   }, "Others")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "portfolio"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "portfolio__container"
   }, projects.map(function (item) {
     return item.filtered === true ? /*#__PURE__*/_react.default.createElement(_Card.default, {
@@ -48810,7 +48814,7 @@ function Projects() {
       size: "small",
       color: "default"
     }, "details")))) : "";
-  })))));
+  }))))));
 }
 
 var _default = Projects;
@@ -48899,7 +48903,7 @@ function Footer() {
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "column has-text-centered"
   }, /*#__PURE__*/_react.default.createElement("p", null, "Sandrine Lê"), /*#__PURE__*/_react.default.createElement("span", {
-    className: "has-text-white"
+    className: " "
   }, "portfolio © 2021"), /*#__PURE__*/_react.default.createElement("img", {
     className: "is-block",
     src: _logo.default,
@@ -48907,26 +48911,26 @@ function Footer() {
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "column footerSocial has-text-centered"
   }, /*#__PURE__*/_react.default.createElement("p", null, "Social Network"), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("a", {
-    className: "is-size-5 has-text-white is-block",
+    className: "is-size-5 has-text-grey is-block",
     href: "https://github.com/SandrineLe/"
   }, /*#__PURE__*/_react.default.createElement("i", {
-    className: "fab fa-github m-2 has-text-white"
+    className: "fab fa-github m-2  "
   }), " ", "Github"), /*#__PURE__*/_react.default.createElement("a", {
-    className: "is-size-5 has-text-white is-block",
+    className: "is-size-5  has-text-grey is-block",
     href: "https://www.behance.net/sandrinee"
   }, /*#__PURE__*/_react.default.createElement("i", {
-    className: "fab fa-behance m-2 has-text-white"
+    className: "fab fa-behance m-2  "
   }), " ", "Behance"), /*#__PURE__*/_react.default.createElement("a", {
-    className: "is-size-5 has-text-white is-block",
+    className: "is-size-5  has-text-grey is-block",
     href: "#"
   }, /*#__PURE__*/_react.default.createElement("i", {
-    className: "fab fa-linkedin-in m-2 has-text-white"
+    className: "fab fa-linkedin-in m-2  "
   }), " ", "Linkedin"))), /*#__PURE__*/_react.default.createElement("div", {
     className: "column"
   }, " ", /*#__PURE__*/_react.default.createElement("p", null, "Contact me"), /*#__PURE__*/_react.default.createElement("span", {
-    className: "is-size-5 has-text-white is-block"
+    className: "is-size-5   is-block"
   }, "le.sandrinemt@gmail.com"), /*#__PURE__*/_react.default.createElement("span", {
-    className: "is-size-5 has-text-white is-block"
+    className: "is-size-5   is-block"
   }, "0498 11 29 27"))));
 }
 
@@ -48988,7 +48992,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59212" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53766" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

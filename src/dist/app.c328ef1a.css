@@ -85,7 +85,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 
 .fancylink {
-  background: linear-gradient(to bottom, white 0%, white 100%);
+  background: linear-gradient(to bottom, #e07a5f 0%, #e07a5f 100%);
   background-position: 0 100%;
   color: white !important;
   background-repeat: repeat-x;
@@ -107,7 +107,7 @@ body section {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  background-image: linear-gradient(to top, rgba(224, 122, 95, 0.8), #e07a5f), url("/herobg.9ee134a4.png");
+  background-image: linear-gradient(to top, rgba(231, 231, 231, 0.7), rgba(194, 194, 194, 0.9)), url("/herobg.9ee134a4.png");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -129,7 +129,9 @@ body section {
 #hero .content p {
   font-family: bilo, sans-serif;
   text-transform: uppercase;
-  background-color: #f3f3f3;
+  color: #3D405B;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  background-color: #ffd89a;
   display: table;
   font-size: 18px;
 }
@@ -233,7 +235,7 @@ h2.yellow::selection {
 #about {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(228, 228, 228, 0.5)), url("/aboutbg.4aaa4f4f.png");
+  background: linear-gradient(to left, rgba(231, 231, 231, 0.6), rgba(194, 194, 194, 0.8)), url("/aboutbg.4aaa4f4f.png");
   background-size: cover;
   background-position: center;
   display: grid;
@@ -293,6 +295,20 @@ h2.yellow::selection {
   top: 1px;
 }
 
+.trivia {
+  color: white;
+}
+.trivia p {
+  font-family: masqualero, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.trivia p span {
+  font-family: bilo, sans-serif;
+  font-size: 12px;
+  display: block;
+}
+
 .selfintro {
   text-align: center;
   margin: 3rem;
@@ -332,6 +348,9 @@ h2.yellow::selection {
 }
 
 .hobbys ul li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
   font-family: masqualero, sans-serif;
   font-size: 25px;
   color: #3D405B;
@@ -391,9 +410,6 @@ h2.yellow::selection {
 /*--------------------------------------------------------------
 # Projects Section
 --------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
 @media (max-width: 736px) {
   #projects .content {
     grid-area: content;
@@ -422,7 +438,7 @@ h2.yellow::selection {
   }
 }
 #projects {
-  background-color: #f3f3f3;
+  background-color: rgba(231, 231, 231, 0.8);
   width: 100%;
   display: grid;
   grid-template-columns: 0.3fr 2.4fr 0.3fr;
@@ -463,6 +479,10 @@ h2.yellow::selection {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfolio {
+  height: 220vh;
 }
 
 /*--------------------------------------------------------------
@@ -533,7 +553,10 @@ form button:hover {
 
 /* --- 5.0 Footer --- */
 footer {
-  background-color: #e07a5f;
+  background-image: linear-gradient(to bottom, rgba(243, 243, 243, 0.8), rgba(247, 247, 247, 0.6)), url("/herobg.9ee134a4.png");
+  background-position: center;
+  background-size: cover;
+  color: #3D405B;
   padding: 9rem !important;
 }
 footer img {
@@ -541,7 +564,7 @@ footer img {
   margin: 0.5rem auto;
 }
 footer p {
-  color: white;
+  color: grey;
   font-size: 25px;
   font-family: masqualero, sans-serif;
   font-weight: 400;

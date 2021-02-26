@@ -153,8 +153,10 @@ function MyTabs() {
 
       </TabPanel>
       <TabPanel value={value} index={3}>
-      <div className={"tab-content has-text-centered"}>
-                    <p>{"What I look like when I code :"}</p>
+      <div className={"tab-content trivia has-text-centered"}>
+                    <p>{"What I look like when I code"}
+                    <span>{"( A true and accurate representation )"} </span></p>
+                    
                     <img src={cat} alt="/" />
 
                 </div>

@@ -12,7 +12,7 @@ function Hero() {
             <h2 data-aos={"fade-up"} data-aos-delay={"400"} className={"yellow"}>{"Hi! I'm"} <span>{"Sandrine"}</span>{", a"} <a
                     className={"fancylink"}>{"frontend developer"}</a> {"and graphic designer based out of"} <strong>{"Liège."}</strong>
             </h2>
-            <p className={"yellow"}>{"Art lover, coffee enthusiast, capybara connoisseur."}</p>
+            <p data-aos={"zoom-in"} data-aos-delay={"400"} className={"yellow"}>{"Art lover, coffee enthusiast, capybara connoisseur."}</p>
         </div>
         <div className={"scrolldown"}>
             <a href={"#about"}><img src={scroll} alt="Logo" /></a>

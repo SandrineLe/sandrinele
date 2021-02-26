@@ -207,6 +207,7 @@ function Projects() {
                             {"Others"}
                         </a>
                     </div>
+                    <div className={"portfolio"}>
                     <div className="portfolio__container">
                         {projects.map(item =>
                             item.filtered === true ? <Card className={classes.root} elevation={0}>
@@ -247,6 +248,7 @@ function Projects() {
 
                         )}
 
+                    </div>
                     </div>
                 </div>
             </section>
