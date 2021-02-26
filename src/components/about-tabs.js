@@ -100,7 +100,7 @@ function MyTabs() {
       </AppBar>
       <TabPanel value={value} index={0}>
       <div className={"tab-content selfintro"}>
-                    <p lang={"en"} className={"green"}>{"Hi! My name is"} <a>{"Sandrine Lê"}</a>{", I'm a 23 year old graphic designer and front end developer living in Liège."}
+                    <p lang={"en"} className={"green"}>{"Hi! My name is"} <a>{"Sandrine Lê"}</a>{", I'm a 23 year old graphic designer and web (front end) developer living in Liège."}
                     </p>
         </div>
       </TabPanel>
