@@ -29945,7 +29945,7 @@ function Hero() {
     className: "yellow"
   }, "Hi! I'm", " ", /*#__PURE__*/_react.default.createElement("span", null, "Sandrine"), ", a", " ", /*#__PURE__*/_react.default.createElement("a", {
     className: "fancylink"
-  }, "frontend developer"), " ", "and graphic designer based out of", " ", /*#__PURE__*/_react.default.createElement("strong", null, "Liège.")), /*#__PURE__*/_react.default.createElement("p", {
+  }, "web developer"), " ", "and graphic designer based out of", " ", /*#__PURE__*/_react.default.createElement("strong", null, "Liège.")), /*#__PURE__*/_react.default.createElement("p", {
     "data-aos": "zoom-in",
     "data-aos-delay": "400",
     className: "yellow"
@@ -47341,7 +47341,7 @@ function MyTabs() {
   }, /*#__PURE__*/_react.default.createElement("p", {
     lang: "en",
     className: "green"
-  }, "Hi! My name is", " ", /*#__PURE__*/_react.default.createElement("a", null, "Sandrine Lê"), ", I'm a 23 year old graphic designer and front end developer living in Liège."))), /*#__PURE__*/_react.default.createElement(TabPanel, {
+  }, "Hi! My name is", " ", /*#__PURE__*/_react.default.createElement("a", null, "Sandrine Lê"), ", I'm a 23 year old graphic designer and web (front end) developer living in Liège."))), /*#__PURE__*/_react.default.createElement(TabPanel, {
     value: value,
     index: 1
   }, /*#__PURE__*/_react.default.createElement("div", {
@@ -48992,7 +48992,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53766" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54238" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

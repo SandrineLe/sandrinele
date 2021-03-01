@@ -107,7 +107,7 @@ body section {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  background-image: linear-gradient(to top, rgba(231, 231, 231, 0.7), rgba(194, 194, 194, 0.9)), url("/herobg.9ee134a4.png");
+  background-image: linear-gradient(to top, rgba(231, 231, 231, 0.7), rgba(194, 194, 194, 0.9)), url("/672d52814af47138b0c29aae9ee134a4.png");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -235,7 +235,7 @@ h2.yellow::selection {
 #about {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to left, rgba(231, 231, 231, 0.6), rgba(194, 194, 194, 0.8)), url("/aboutbg.4aaa4f4f.png");
+  background: linear-gradient(to left, rgba(231, 231, 231, 0.6), rgba(194, 194, 194, 0.8)), url("/0c9b0a0165c0e00542efb78f4aaa4f4f.png");
   background-size: cover;
   background-position: center;
   display: grid;
@@ -481,10 +481,6 @@ h2.yellow::selection {
   flex-wrap: wrap;
 }
 
-.portfolio {
-  height: 220vh;
-}
-
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -553,7 +549,7 @@ form button:hover {
 
 /* --- 5.0 Footer --- */
 footer {
-  background-image: linear-gradient(to bottom, rgba(243, 243, 243, 0.8), rgba(247, 247, 247, 0.6)), url("/herobg.9ee134a4.png");
+  background-image: linear-gradient(to bottom, rgba(243, 243, 243, 0.8), rgba(247, 247, 247, 0.6)), url("/672d52814af47138b0c29aae9ee134a4.png");
   background-position: center;
   background-size: cover;
   color: #3D405B;
