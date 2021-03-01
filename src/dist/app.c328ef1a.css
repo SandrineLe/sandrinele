@@ -38,6 +38,7 @@
 :root {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
 }
 
 html {
@@ -101,6 +102,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 /* --- 4.0 Sections --- */
 body section {
   scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 /*--------------------------------------------------------------
