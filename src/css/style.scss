@@ -58,6 +58,7 @@ $font-text: bilo, sans-serif;
 :root {
     scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
+	scroll-snap-stop: always;
 }
 
 
@@ -118,7 +119,8 @@ a:focus {
 
 /* --- 4.0 Sections --- */
 
-body section {    scroll-snap-align: start; }
+body section {    scroll-snap-align: start; 
+	scroll-snap-stop: always;}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
