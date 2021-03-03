@@ -1,5 +1,8 @@
 import React from "react";
-import scroll from ".././img/scroll.svg"
+import { ReactComponent as Scroll } from '../img/scroll.svg'
+
+
+
 
 
 function Hero() {
@@ -15,8 +18,8 @@ function Hero() {
             <p data-aos={"zoom-in"} data-aos-delay={"400"} className={"yellow"}>{"Art lover, coffee enthusiast, capybara connoisseur."}</p>
         </div>
         <div className={"scrolldown"}>
-            <a href={"#about"}><img src={scroll} alt="Logo" /></a>
-        </div>
+         <a href={"#about"}>
+             <Scroll /></a>   </div>
 
 
 

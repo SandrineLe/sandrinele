@@ -7,7 +7,7 @@ function MyNavbar() {
 
     return (
 
-		<nav className={"navbar is-size-4 m-5 p-3 is-fixed-top is-transparent"} role={"navigation"} aria-label={"navbar main navigation"} >
+		<nav className={"navbar is-size-5 is-fixed-top is-transparent"} role={"navigation"} aria-label={"navbar main navigation"} >
 			<div className={"navbar-brand"}>
 				<a className={"navbar-item"}>
 					<p>{"Sandrine Lê"}</p>

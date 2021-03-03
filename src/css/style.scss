@@ -13,7 +13,6 @@
 *  7.0 - Footer
 */
 
-
 /* --- 1.0 Colors + Font --- */
 $text-color: #3D405B;
 $primary: #ffd89a;
@@ -39,10 +38,6 @@ $font-text: bilo, sans-serif;
 	box-sizing: border-box;
 	scrollbar-color: $text-color white;
 }
-
-
-  
-  /* Works on Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
 	width: 0.7rem;
   }
@@ -54,14 +49,14 @@ $font-text: bilo, sans-serif;
   *::-webkit-scrollbar-thumb {
 	background-color: $text-color;
   }
-
+ 
 :root {
     scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
 }
 
 
-html { font-size: 62.5%; 
+html { font-size: 68.5%!important; 
 }
 body {  
 	width:100%;
@@ -79,10 +74,11 @@ a:hover,
 a:focus {
 	outline: none;
 }
-.navbar {
+.navbar {	
     &.is-transparent {
     background-color: transparent;
     background-image: none;
+	padding:2.5rem;
     }
 	}
 
@@ -118,7 +114,7 @@ a:focus {
 
 /* --- 4.0 Sections --- */
 
-body section {   
+section {   
 	 scroll-snap-align: start; 
 	 scroll-snap-stop:always!important;
 }
@@ -127,11 +123,11 @@ body section {
 --------------------------------------------------------------*/
 
 #hero {
-	background-image: linear-gradient(to top, rgba(231, 231, 231, 0.7), rgba(194, 194, 194, 0.9)),url("/img/herobg.png");
+	background-image: linear-gradient(to top, rgba(231, 231, 231, 0.7), rgba(194, 194, 194, 0.9)),url("../img/herobg.png");
 	background-position: center;
 	background-size: cover;
     width: 100%;
-	height: 100vh;
+	height: 100vh; 
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -248,7 +244,7 @@ body section {
 #about {
     width: 100%;
 	height: 100vh;
-	background: linear-gradient(to left, rgba(231, 231, 231, 0.6), rgba(194, 194, 194, 0.8)),url("/img/aboutbg.png");
+	background: linear-gradient(to left, rgba(231, 231, 231, 0.6), rgba(194, 194, 194, 0.8)),url("/src/img/aboutbg.png");
 	background-size: cover;
 	background-position: center;
    
@@ -553,7 +549,7 @@ width:60%;
 /* --- 5.0 Footer --- */
 
 footer {
-	background-image: linear-gradient(to bottom, rgba(243, 243, 243, 0.8), rgba(247, 247, 247,0.6)),url("/img/herobg.png");
+	background-image: linear-gradient(to bottom, rgba(243, 243, 243, 0.8), rgba(247, 247, 247,0.6)),url("/src/img/herobg.png");
 	background-position: center;
 	background-size: cover;
 	color:$secondaryDark;

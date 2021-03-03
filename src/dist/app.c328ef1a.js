@@ -29772,79 +29772,12 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
-
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
-  }
-
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
-      }
-    }
-
-    cssTimeout = null;
-  }, 50);
-}
-
-module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/style.css":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"css/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/herobg.png":[["herobg.9ee134a4.png","img/herobg.png"],"img/herobg.png"],"/Applications/XAMPP/xamppfiles/htdocs/sandrinele/src/img/aboutbg.png":[["aboutbg.4aaa4f4f.png","img/aboutbg.png"],"img/aboutbg.png"],"_css_loader":"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navbar.js":[function(require,module,exports) {
+},{}],"components/navbar.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29916,9 +29849,7 @@ function MyNavbar() {
 
 var _default = MyNavbar;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"img/scroll.svg":[function(require,module,exports) {
-module.exports = "/scroll.9a369592.svg";
-},{}],"components/hero.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js"}],"components/hero.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29927,8 +29858,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
-
-var _scroll = _interopRequireDefault(require(".././img/scroll.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29951,17 +29880,12 @@ function Hero() {
     className: "yellow"
   }, "Art lover, coffee enthusiast, capybara connoisseur.")), /*#__PURE__*/_react.default.createElement("div", {
     className: "scrolldown"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    href: "#about"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _scroll.default,
-    alt: "Logo"
-  }))));
+  }, "        "));
 }
 
 var _default = Hero;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js",".././img/scroll.svg":"img/scroll.svg"}],"../node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js"}],"../node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -48819,7 +48743,7 @@ function Projects() {
 
 var _default = Projects;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js",".././css/style.css":"css/style.css",".././img/project-coffee.png":"img/project-coffee.png",".././img/project-cms.png":"img/project-cms.png",".././img/project-leaf.png":"img/project-leaf.png",".././img/project-kokombe.png":"img/project-kokombe.png",".././img/project-starwars.png":"img/project-starwars.png",".././img/project-tisjart.png":"img/project-tisjart.png",".././img/project-agency.png":"img/project-agency.png",".././img/project-risingsun.png":"img/project-risingsun.png",".././img/project-pomodoro.png":"img/project-pomodoro.png",".././img/project-goutte.png":"img/project-goutte.png",".././img/project-breeze.png":"img/project-breeze.png",".././img/project-fourmis.png":"img/project-fourmis.png",".././img/project-dissidentes.png":"img/project-dissidentes.png","@material-ui/core/styles":"../node_modules/@material-ui/core/esm/styles/index.js","@material-ui/core/Card":"../node_modules/@material-ui/core/esm/Card/index.js","@material-ui/core/CardActionArea":"../node_modules/@material-ui/core/esm/CardActionArea/index.js","@material-ui/core/CardActions":"../node_modules/@material-ui/core/esm/CardActions/index.js","@material-ui/core/CardContent":"../node_modules/@material-ui/core/esm/CardContent/index.js","@material-ui/core/CardMedia":"../node_modules/@material-ui/core/esm/CardMedia/index.js","@material-ui/core/Button":"../node_modules/@material-ui/core/esm/Button/index.js","@material-ui/core/Typography":"../node_modules/@material-ui/core/esm/Typography/index.js"}],"components/contact.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js",".././css/style.css":"css/style.css",".././img/project-coffee.png":"img/project-coffee.png",".././img/project-cms.png":"img/project-cms.png",".././img/project-leaf.png":"img/project-leaf.png",".././img/project-kokombe.png":"img/project-kokombe.png",".././img/project-starwars.png":"img/project-starwars.png",".././img/project-tisjart.png":"img/project-tisjart.png",".././img/project-agency.png":"img/project-agency.png",".././img/project-risingsun.png":"img/project-risingsun.png",".././img/project-pomodoro.png":"img/project-pomodoro.png",".././img/project-goutte.png":"img/project-goutte.png",".././img/project-breeze.png":"img/project-breeze.png",".././img/project-fourmis.png":"img/project-fourmis.png",".././img/project-dissidentes.png":"img/project-dissidentes.png","@material-ui/core/styles":"../node_modules/@material-ui/core/esm/styles/index.js","@material-ui/core/Card":"../node_modules/@material-ui/core/esm/Card/index.js","@material-ui/core/CardActionArea":"../node_modules/@material-ui/core/esm/CardActionArea/index.js","@material-ui/core/CardActions":"../node_modules/@material-ui/core/esm/CardActions/index.js","@material-ui/core/CardContent":"../node_modules/@material-ui/core/esm/CardContent/index.js","@material-ui/core/CardMedia":"../node_modules/@material-ui/core/esm/CardMedia/index.js","@material-ui/core/Button":"../node_modules/@material-ui/core/esm/Button/index.js","@material-ui/core/Typography":"../node_modules/@material-ui/core/esm/Typography/index.js"}],"components/footer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48828,72 +48752,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Contact() {
-  return /*#__PURE__*/_react.default.createElement("section", {
-    id: "contact",
-    className: "contact"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    lang: "en",
-    className: "content"
-  }, /*#__PURE__*/_react.default.createElement("h4", null, "Contact me"), /*#__PURE__*/_react.default.createElement("form", {
-    acceptCharset: "UTF-8",
-    action: "https://getform.io/f/f7915c6f-f483-490f-9fcf-d99a179aab31",
-    method: "POST",
-    encType: "multipart/form-data",
-    target: "_blank",
-    id: "ajaxForm"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "field"
-  }, /*#__PURE__*/_react.default.createElement("label", {
-    className: "labelname is-size-3"
-  }, "Name"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "control"
-  }, /*#__PURE__*/_react.default.createElement("input", {
-    className: "input mb-2",
-    name: "name",
-    type: "text",
-    placeholder: "e.g John Doe"
-  })), /*#__PURE__*/_react.default.createElement("label", {
-    className: "labelname is-size-3"
-  }, "Email"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "control"
-  }, /*#__PURE__*/_react.default.createElement("input", {
-    className: "input mb-2",
-    name: "email",
-    type: "email",
-    placeholder: "e.g. johndoe@gmail.com"
-  })), /*#__PURE__*/_react.default.createElement("label", {
-    className: "labelname is-size-3"
-  }, "Message"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "control"
-  }, /*#__PURE__*/_react.default.createElement("textarea", {
-    className: "textarea",
-    name: "message",
-    placeholder: "Leave me your message here"
-  }))), /*#__PURE__*/_react.default.createElement("button", {
-    className: "mt-5",
-    type: "submit"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "Send")))));
-}
-
-var _default = Contact;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"img/logo.svg":[function(require,module,exports) {
-module.exports = "/logo.f1d8a4c6.svg";
-},{}],"components/footer.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _logo = _interopRequireDefault(require(".././img/logo.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48904,11 +48762,7 @@ function Footer() {
     className: "column has-text-centered"
   }, /*#__PURE__*/_react.default.createElement("p", null, "Sandrine Lê"), /*#__PURE__*/_react.default.createElement("span", {
     className: " "
-  }, "portfolio © 2021"), /*#__PURE__*/_react.default.createElement("img", {
-    className: "is-block",
-    src: _logo.default,
-    alt: "Logo"
-  })), /*#__PURE__*/_react.default.createElement("div", {
+  }, "portfolio © 2021"), "        "), /*#__PURE__*/_react.default.createElement("div", {
     className: "column footerSocial has-text-centered"
   }, /*#__PURE__*/_react.default.createElement("p", null, "Social Network"), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("a", {
     className: "is-size-5 has-text-grey is-block",
@@ -48936,14 +48790,14 @@ function Footer() {
 
 var _default = Footer;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js",".././img/logo.svg":"img/logo.svg"}],"app.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _react = _interopRequireDefault(require("react"));
 
-require("/css/style.css");
+require("./css/style.css");
 
 var _navbar = _interopRequireDefault(require("./components/navbar"));
 
@@ -48952,8 +48806,6 @@ var _hero = _interopRequireDefault(require("./components/hero"));
 var _about = _interopRequireDefault(require("./components/about"));
 
 var _projects = _interopRequireDefault(require("./components/projects"));
-
-var _contact = _interopRequireDefault(require("./components/contact"));
 
 var _footer = _interopRequireDefault(require("./components/footer"));
 
@@ -48964,7 +48816,7 @@ function App() {
 }
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), document.querySelector("#app"));
-},{"react-dom":"../node_modules/react-dom/index.js","react":"../node_modules/react/index.js","/css/style.css":"css/style.css","./components/navbar":"components/navbar.js","./components/hero":"components/hero.js","./components/about":"components/about.js","./components/projects":"components/projects.js","./components/contact":"components/contact.js","./components/footer":"components/footer.js"}],"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react-dom":"../node_modules/react-dom/index.js","react":"../node_modules/react/index.js","./css/style.css":"css/style.css","./components/navbar":"components/navbar.js","./components/hero":"components/hero.js","./components/about":"components/about.js","./components/projects":"components/projects.js","./components/footer":"components/footer.js"}],"../../../../../../Users/sandrinele/.nvm/versions/node/v15.7.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -48992,7 +48844,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54238" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53595" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -227,7 +227,7 @@ function Projects() {
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
                                             <span key={item.desc}>{item.desc}</span>
-                                            <hr />
+                                            <br />
                                             <strong>{"Tools :"} </strong><span key={item.tools}>{item.tools}</span>
                                         </Typography>
                                     </CardContent>

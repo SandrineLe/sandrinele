@@ -1,5 +1,6 @@
 import React from "react";
-import logo from ".././img/logo.svg"
+import { ReactComponent as Logo } from '../img/logo.svg'
+
 
 
 function Footer() {
@@ -9,7 +10,8 @@ function Footer() {
         <div className={"column has-text-centered"}>
           <p>{"Sandrine Lê"}</p>
           <span className={" "}>{"portfolio © 2021"}</span>
-          <img className={"is-block"} src={logo} alt="Logo" />
+
+          <span className={"is-block m-2"}><Logo /></span>
         </div>
         <div className={"column footerSocial has-text-centered"}>
         <p>{"Social Network"}</p>

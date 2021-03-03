@@ -10,7 +10,6 @@ import CodeIcon from '@material-ui/icons/Code';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import HelpIcon from '@material-ui/icons/Help';
 
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 import photoshop from ".././img/photoshop.png"
@@ -19,7 +18,7 @@ import indesign from ".././img/indesign.png"
 import xd from ".././img/xd.png"
 import MySQL from ".././img/MySQL.png"
 import bulma from ".././img/Bulma.png"
-import cat from ".././img/cat.gif"
+import cat from "../img/cat.gif"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;

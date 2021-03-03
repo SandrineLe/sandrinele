@@ -1,14 +1,14 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import "/css/style.css";
-
+import "./css/style.scss";
+import "./css/kursor.css";
+import "bulma";
 
 
 import MyNavbar from "./components/navbar";
 import Hero from "./components/hero";
 import About from "./components/about";
 import Projects from "./components/projects";
-import Contact from "./components/contact";
 import Footer from "./components/footer";
 
 

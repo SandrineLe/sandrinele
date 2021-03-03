@@ -35,6 +35,7 @@
   "deprecated": false,
   "description": "Modern CSS framework based on Flexbox",
   "devDependencies": {
+    "@babel/core": "^7.13.8",
     "autoprefixer": "^9.8.0",
     "clean-css-cli": "^4.3.0",
     "node-sass": "^4.14.1",
