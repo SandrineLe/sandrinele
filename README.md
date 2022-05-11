@@ -1,7 +1,7 @@
 ### Sandrine Lê.
 
 Hi! I'm Sandrine, a frontend developer based out of Liège. 
-###### 💬 https://sandrinele.me/
+
 <!--
 **SandrineLe/sandrinele** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
